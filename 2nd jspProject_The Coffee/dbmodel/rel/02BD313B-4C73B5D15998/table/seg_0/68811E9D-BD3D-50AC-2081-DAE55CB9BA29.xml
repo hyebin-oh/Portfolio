@@ -1,0 +1,144 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="68811E9D-BD3D-50AC-2081-DAE55CB9BA29" schemaObject="B8CAE023-E49A-01F3-44CB-89DEC41E35FC" name="QNA">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>QNA</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="QNUM" id="6E958079-BD63-E5D8-3A2C-E824D7D3983D">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>QNUM</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QSUBJECT" id="ED53389A-961D-4260-6743-12D8EAD8BEEC">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>QSUBJECT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QCONTENT" id="8D8BBCD4-D7A3-D004-BE56-1CB61071CA89">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>QCONTENT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QDATE" id="997ED0DE-827B-674F-BCF4-74C0BC63C57C">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>QDATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID" id="565C0CFB-AA9D-4DC2-29C4-472E45C40F81">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QVIEW" id="C5E10D39-ADFA-518A-2E4D-970850C0A1EA">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>QNA</sourceObjSchema>
+<sourceObjName>QVIEW</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<defaultValue>0</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="REPLY_CNUM" id="DB1B6314-48D0-4240-BFC8-6C5266999CD6">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:59:10 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="2745614A-58C0-AE7B-3D74-BA73E98BC2AF" name="QNA_PK">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>QNA_PK</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 15:00:48 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<importedID>57EA6366-3EA9-BEE2-BBE7-44829754514C</importedID>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E958079-BD63-E5D8-3A2C-E824D7D3983D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0232777F-9AE0-1195-9690-734AAFD5A9EA" schemaObject="B8CAE023-E49A-01F3-44CB-89DEC41E35FC" name="QNA_PK">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>QNA_PK</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 15:00:48 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<importedID>D8F5E391-6CD4-4C67-4D6B-91FC4A0D8C76</importedID>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="6E958079-BD63-E5D8-3A2C-E824D7D3983D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

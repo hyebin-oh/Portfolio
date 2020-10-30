@@ -1,0 +1,116 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="8AB3714B-AF77-A676-E8AC-7B450ABEA447" schemaObject="B8CAE023-E49A-01F3-44CB-89DEC41E35FC" name="CART">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>CART</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CNUM" id="2994F16E-7298-9A74-43A5-3B8F08F84F18">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>CART</sourceObjSchema>
+<sourceObjName>CNUM</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID" id="EF30B27E-BB85-739E-2F6E-00B0E17A3595">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>CART</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT" id="E70D21B5-3A1A-0687-DB4D-EE5FDB5B7495">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>CART</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNT" id="A4794FB4-B948-C045-93A7-54B100E6202A">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>CART</sourceObjSchema>
+<sourceObjName>COUNT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<commentInRDBMS><![CDATA[장바구니 상품 수량]]></commentInRDBMS>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PTYPE" id="4E0AD8B8-CD4A-FD23-DD02-0609CFF61C95">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>CART</sourceObjSchema>
+<sourceObjName>PTYPE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="4BFE57CF-653D-290B-92C8-7012A8D7A9BA" name="CART_PK">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>CART_PK</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2994F16E-7298-9A74-43A5-3B8F08F84F18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AB5967E-21FC-D8DF-554A-FBD8A5C6E1E3" schemaObject="B8CAE023-E49A-01F3-44CB-89DEC41E35FC" name="CART_PK">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>CART_PK</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2994F16E-7298-9A74-43A5-3B8F08F84F18"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

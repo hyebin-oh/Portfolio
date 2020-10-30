@@ -1,0 +1,77 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="REPLY" directorySegmentName="seg_0" id="86DF2E24-A9E0-5244-2C3F-3D2B87F39AFB">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<schemaObject>B8CAE023-E49A-01F3-44CB-89DEC41E35FC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C808FBD-2067-06B3-4D74-DD371F6D59D6</segment>
+<tableSpace>543C7BCE-4430-1B3C-7CDD-8616DC6E7EED</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="CNUM" id="08BC395B-6C76-5D88-AFE8-D9FF42EBEE64">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="USERID" id="14EF4020-82EA-1941-0033-CAFF8A74E39B">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="QNUM" id="4CCD2B05-6569-DB02-E570-C7EBF330B260">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CWRITER" id="C908DD66-8135-FD67-DEDA-D7A675A63374">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="CDATE" id="CB7D93D7-9452-08AF-336D-BBDAA741261D">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="MSG" id="F50BD801-B616-277A-C70A-A1B5DB1249BC">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="REPLY_PK" id="ECC12C6E-B7B2-E2E7-1C26-319478365620">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<schemaObject>B8CAE023-E49A-01F3-44CB-89DEC41E35FC</schemaObject>
+<segment>AC8FDEFF-D8C2-6905-6AA5-0B5843C228AB</segment>
+<tableSpace>543C7BCE-4430-1B3C-7CDD-8616DC6E7EED</tableSpace>
+</IndexProxy>
+</indexProxies>
+<foreignKeys>
+<ForeignKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.FKProxyOraclev10g" name="REPLY_FK1" id="0AA28FDB-03D3-5D20-718E-65AF55047CD2">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 15:00:48 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+</ForeignKey>
+</foreignKeys>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="REPLY_PK" id="A81F3A0E-CD91-F217-9AB0-6AD1DF71728D">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<segment>AC8FDEFF-D8C2-6905-6AA5-0B5843C228AB</segment>
+<tableSpace>543C7BCE-4430-1B3C-7CDD-8616DC6E7EED</tableSpace>
+<existingIndex>ECC12C6E-B7B2-E2E7-1C26-319478365620</existingIndex>
+<indexSegment>AC8FDEFF-D8C2-6905-6AA5-0B5843C228AB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>

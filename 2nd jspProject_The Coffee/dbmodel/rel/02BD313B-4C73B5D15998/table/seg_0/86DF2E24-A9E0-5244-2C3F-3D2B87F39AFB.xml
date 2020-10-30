@@ -1,0 +1,147 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="86DF2E24-A9E0-5244-2C3F-3D2B87F39AFB" schemaObject="B8CAE023-E49A-01F3-44CB-89DEC41E35FC" name="REPLY">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>REPLY</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="CNUM" id="08BC395B-6C76-5D88-AFE8-D9FF42EBEE64">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>CNUM</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID" id="14EF4020-82EA-1941-0033-CAFF8A74E39B">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[글 작성자]]></commentInRDBMS>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="MSG" id="F50BD801-B616-277A-C70A-A1B5DB1249BC">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>MSG</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CDATE" id="CB7D93D7-9452-08AF-336D-BBDAA741261D">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>CDATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="QNUM" id="4CCD2B05-6569-DB02-E570-C7EBF330B260">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>QNUM</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="0F0FB9A9-0B0D-BB95-AB52-F331AC68E145" referredColumn="6E958079-BD63-E5D8-3A2C-E824D7D3983D"/>
+</associations>
+</Column>
+<Column name="CWRITER" id="C908DD66-8135-FD67-DEDA-D7A675A63374">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>REPLY</sourceObjSchema>
+<sourceObjName>CWRITER</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<commentInRDBMS><![CDATA[코멘트 작성자
+]]></commentInRDBMS>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>50 BYTE</dataTypeSize>
+<ownDataTypeParameters>50 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A81F3A0E-CD91-F217-9AB0-6AD1DF71728D" name="REPLY_PK">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>REPLY_PK</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08BC395B-6C76-5D88-AFE8-D9FF42EBEE64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="ECC12C6E-B7B2-E2E7-1C26-319478365620" schemaObject="B8CAE023-E49A-01F3-44CB-89DEC41E35FC" name="REPLY_PK">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>REPLY_PK</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="08BC395B-6C76-5D88-AFE8-D9FF42EBEE64"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="0AA28FDB-03D3-5D20-718E-65AF55047CD2" name="REPLY_FK1">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 15:00:48 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="4CCD2B05-6569-DB02-E570-C7EBF330B260"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

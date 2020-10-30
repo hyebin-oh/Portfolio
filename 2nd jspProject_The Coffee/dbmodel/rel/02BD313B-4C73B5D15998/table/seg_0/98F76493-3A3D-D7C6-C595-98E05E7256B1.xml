@@ -1,0 +1,190 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="98F76493-3A3D-D7C6-C595-98E05E7256B1" schemaObject="B8CAE023-E49A-01F3-44CB-89DEC41E35FC" name="ORDERSHOP">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>ORDERSHOP</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="ONUM" id="CB761E1E-77D2-4A47-4E2E-C17B2EEAC1E8">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>ONUM</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="USERID" id="4980A28C-321E-8D7E-CC35-A20C55E42325">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>USERID</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="NAME" id="ABDFB072-B981-B9F8-AD2B-A31E6E6393FF">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>NAME</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>20 BYTE</dataTypeSize>
+<ownDataTypeParameters>20 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PHONE" id="2F18481A-074E-ADE4-C147-49D5C0E90663">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>PHONE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="PRODUCT" id="B2F15EC3-129F-D17E-AD08-417DD952BE81">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>PRODUCT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200 BYTE</dataTypeSize>
+<ownDataTypeParameters>200 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COUNT" id="790A3095-2A27-182E-0B8F-97889B1FA91B">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>COUNT</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERDATE" id="A468EB1B-0BF5-92D6-9D15-45B25B89396F">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>ORDERDATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<defaultValue>sysdate</defaultValue>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ADDR" id="9F3590AA-683C-7300-D354-0F5B5903AC99">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>ADDR</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>500 BYTE</dataTypeSize>
+<ownDataTypeParameters>500 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERSTATE" id="A94BC743-98EB-B8E1-ADB3-22EED30091E5">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>ORDERSTATE</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>100 BYTE</dataTypeSize>
+<ownDataTypeParameters>100 BYTE,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="ORDERNUM" id="A687B472-AA62-E802-A9B5-26BFF53BEF4B">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>ORDERSHOP</sourceObjSchema>
+<sourceObjName>ORDERNUM</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="929681D3-8343-F096-9B92-E489BF541E91" name="ORDERSHOP_PK">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>ORDERSHOP_PK</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB761E1E-77D2-4A47-4E2E-C17B2EEAC1E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="78E7C6DA-566C-CC66-B983-008FBC36B47E" schemaObject="B8CAE023-E49A-01F3-44CB-89DEC41E35FC" name="ORDERSHOP_PK">
+<sourceConnName>3nd the_coffee</sourceConnName>
+<sourceObjSchema>THE_COFFEE</sourceObjSchema>
+<sourceObjName>ORDERSHOP_PK</sourceObjName>
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<indexState>Unique Plain Index</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="CB761E1E-77D2-4A47-4E2E-C17B2EEAC1E8"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

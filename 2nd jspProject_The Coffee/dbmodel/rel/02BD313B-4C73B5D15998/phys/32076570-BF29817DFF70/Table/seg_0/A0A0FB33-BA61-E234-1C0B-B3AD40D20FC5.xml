@@ -1,0 +1,66 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<TableProxyOraclev11g class="oracle.dbtools.crest.model.design.storage.oracle.v11g.TableProxyOraclev11g" name="NOTICE" directorySegmentName="seg_0" id="A0A0FB33-BA61-E234-1C0B-B3AD40D20FC5">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<schemaObject>B8CAE023-E49A-01F3-44CB-89DEC41E35FC</schemaObject>
+<logging>YES</logging>
+<partitionedRowMovement>DISABLE</partitionedRowMovement>
+<segment>5C808FBD-2067-06B3-4D74-DD371F6D59D6</segment>
+<tableSpace>543C7BCE-4430-1B3C-7CDD-8616DC6E7EED</tableSpace>
+<temporaryChanged>false</temporaryChanged>
+<accessDriverType>oracle_loader</accessDriverType>
+<rejectLimit></rejectLimit>
+<columnProxies itemClass="oracle.dbtools.crest.model.design.storage.oracle.v12c.ColumnProxyOraclev12c">
+<ColumnProxy name="NSUBJECT" id="01BDAA9F-37FB-AFE5-4684-584DA5D21612">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NVIEW" id="1D324EEE-6804-3FB9-7135-E8CDC30AB433">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<defaultValue>0</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NDATE" id="5FCFA2A2-5F28-8F80-C5BD-AFC3B8C7D86E">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<defaultValue>sysdate</defaultValue>
+</ColumnProxy>
+<ColumnProxy name="NCONTENT" id="67C1F131-1D88-619B-AB5F-EA07141D71E6">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+</ColumnProxy>
+<ColumnProxy name="NNUM" id="8AD27CA9-2258-5D8F-CCCE-8B50B699E157">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:05 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+</ColumnProxy>
+</columnProxies>
+<indexProxies>
+<IndexProxy class="oracle.dbtools.crest.model.design.storage.oracle.v10g.IndexProxyOraclev10g" name="NOTICE_PK" id="05FDF2B5-64D2-CBA6-82A6-9DC942743B93">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<schemaObject>B8CAE023-E49A-01F3-44CB-89DEC41E35FC</schemaObject>
+<segment>AC8FDEFF-D8C2-6905-6AA5-0B5843C228AB</segment>
+<tableSpace>543C7BCE-4430-1B3C-7CDD-8616DC6E7EED</tableSpace>
+</IndexProxy>
+</indexProxies>
+<primaryKeys>
+<PrimaryKey class="oracle.dbtools.crest.model.design.storage.oracle.v10g.PKProxyOraclev10g" name="NOTICE_PK" id="46DFD754-FB15-048F-E75F-BCD1361CD118">
+<createdBy>user</createdBy>
+<createdTime>2020-08-17 14:51:06 UTC</createdTime>
+<ownerDesignName>dbmodel</ownerDesignName>
+<segment>AC8FDEFF-D8C2-6905-6AA5-0B5843C228AB</segment>
+<tableSpace>543C7BCE-4430-1B3C-7CDD-8616DC6E7EED</tableSpace>
+<existingIndex>05FDF2B5-64D2-CBA6-82A6-9DC942743B93</existingIndex>
+<indexSegment>AC8FDEFF-D8C2-6905-6AA5-0B5843C228AB</indexSegment>
+<indexSort>SORTED</indexSort>
+<usingIndex>BY INDEX NAME</usingIndex>
+</PrimaryKey>
+</primaryKeys>
+</TableProxyOraclev11g>
