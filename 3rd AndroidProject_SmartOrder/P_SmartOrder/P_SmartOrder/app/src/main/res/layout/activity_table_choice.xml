@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+    tools:context=".Activity.MainActivity">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/txtHello"
+        android:text="반갑습니다"
+        android:visibility="visible"
+        android:textColor="#4ABFD3"
+        android:textStyle="bold"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:id="@+id/serachShopLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="visible"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="지점을 검색해주세요"
+            android:textColor="#4ABFD3"
+            android:textStyle="bold"
+            android:textSize="25sp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="지점 검색"
+                android:id="@+id/edtSearch" />
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:background="#4ABFD3"
+                android:textColor="#FFFFFF"
+                android:id="@+id/btnSearch"
+                android:text="검색" />
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/listShop"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:visibility="invisible"
+        android:id="@+id/tableChoiceLayout"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|top"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:text="선택한 지점 : " />
+            <TextView
+                android:layout_width="200sp"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:textColor="#000000"
+                android:id="@+id/txtSearch"
+                android:text="선택 지점명" />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtShopNum"
+                android:text="shopNum"
+                android:visibility="invisible"/>
+            <Button
+                android:layout_width="wrap_content"
+                android:layout_height="30sp"
+                android:background="#4ABFD3"
+                android:textColor="#FFFFFF"
+                android:id="@+id/btnResearch"
+                android:text="다시 검색" />
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="착석하신 테이블을 선택하세요"
+            android:textStyle="bold"
+            android:textColor="#4ABFD3"
+            android:textSize="25sp" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btnTable1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circlebutton"
+                android:layout_margin="10sp"
+                android:text="1"
+                android:textColor="#4ABFD3"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/btnTable2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circlebutton"
+                android:layout_margin="10sp"
+                android:text="2"
+                android:textColor="#4ABFD3"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal" >
+            <Button
+                android:id="@+id/btnTable3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circlebutton"
+                android:layout_margin="10sp"
+                android:text="3"
+                android:textColor="#4ABFD3"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/btnTable4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circlebutton"
+                android:layout_margin="10sp"
+                android:text="4"
+                android:textColor="#4ABFD3"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+            <Button
+                android:id="@+id/btnTable5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/circlebutton"
+                android:layout_margin="10sp"
+                android:text="5"
+                android:textColor="#4ABFD3"
+                android:textStyle="bold"
+                android:textSize="20sp"/>
+        </LinearLayout>
+    </LinearLayout>
+
+</LinearLayout>

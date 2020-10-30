@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".Activity.MenuViewActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20sp"
+        android:orientation="horizontal">
+        <ImageView
+            android:layout_width="150sp"
+            android:layout_height="150sp"
+            android:id="@+id/imgMenu" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:orientation="vertical">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txtViewMenu"
+                android:text="메뉴명"
+                android:textSize="22sp"
+                android:layout_margin="10sp"
+                android:textStyle="bold"/>
+            <TextView
+                android:id="@+id/txtViewCost"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10sp"
+                android:layout_marginTop="5sp"
+                android:textSize="17sp"
+                android:text="가격"/>
+
+            <LinearLayout
+                android:layout_margin="10sp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:orientation="horizontal">
+                <ImageButton
+                    android:layout_width="20sp"
+                    android:layout_height="30sp"
+                    android:id="@+id/btnSub"
+                    android:src="@drawable/minus"
+                    android:background="#FFFFFF"
+                    android:gravity="center_horizontal"
+                    android:layout_gravity="center_horizontal" />
+                <TextView
+                    android:layout_width="30sp"
+                    android:layout_height="30sp"
+                    android:gravity="center"
+                    android:text="1"
+                    android:textSize="16sp"
+                    android:id="@+id/txtCount"/>
+                <ImageButton
+                    android:layout_width="20sp"
+                    android:layout_height="20sp"
+                    android:src="@drawable/plus"
+                    android:id="@+id/btnPlus"
+                    android:text="+" />
+            </LinearLayout>
+
+            <RadioGroup
+                android:id="@+id/rGroup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:visibility="visible"
+                android:orientation="horizontal">
+                <RadioButton
+                    android:id="@+id/rIce"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:checked="true"
+                    android:text="Ice"/>
+                <RadioButton
+                    android:id="@+id/rHot"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="visible"
+                    android:text="Hot" />
+                <RadioButton
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:visibility="invisible"
+                    android:id="@+id/food"
+                    android:text="food"/>
+            </RadioGroup>
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:visibility="gone">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tShop"
+            android:text="shop"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tOnum"
+            android:text="onum"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tType"
+            android:text="type"/>
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:shadowColor="#4ABFD3"
+        android:layout_gravity="center"
+        android:layout_marginHorizontal="20sp"
+        android:background="#4ABFD3"
+        android:id="@+id/btnCartAdd"
+        android:textSize="17sp"
+        android:textColor="#FFFFFF"
+        android:text="장바구니" />
+
+</LinearLayout>

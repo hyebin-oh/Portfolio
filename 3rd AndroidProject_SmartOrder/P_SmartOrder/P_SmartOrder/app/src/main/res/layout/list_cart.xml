@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_margin="35sp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="280sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cartMenu"
+            android:layout_gravity="center"
+            android:textSize="22sp"
+            android:textStyle="bold"
+            android:text="메뉴"/>
+
+        <ImageButton
+            android:id="@+id/imgDelete"
+            android:layout_width="40sp"
+            android:layout_height="40sp"
+            android:background="#FFFFFF"
+            android:padding="5sp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/iconfinder_remove_2199096"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="5sp"
+        android:orientation="horizontal" >
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="wrap_content"
+            android:textSize="15sp"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:id="@+id/cartTemp"
+            android:text="온도"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text=" / " />
+        <TextView
+            android:layout_width="55sp"
+            android:layout_height="wrap_content"
+            android:id="@+id/cartCount"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:textSize="15sp"
+            android:text="수량"/>
+        <TextView
+            android:layout_width="190sp"
+            android:layout_height="wrap_content"
+            android:gravity="right"
+            android:layout_gravity="center"
+            android:textSize="18sp"
+            android:id="@+id/cartCost"
+            android:text="00000원"/>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/visible"
+        android:visibility="gone"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/cartType" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tonum" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/tnum" />
+    </LinearLayout>
+
+
+
+
+</LinearLayout>

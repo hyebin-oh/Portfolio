@@ -1,0 +1,43 @@
+--------------------------------------------------------
+--  파일이 생성됨 - 화요일-8월-18-2020   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Sequence CART_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "THE_COFFEE"."CART_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 65 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence HOMEUSER_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "THE_COFFEE"."HOMEUSER_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 6 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence NOTICE_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "THE_COFFEE"."NOTICE_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 4 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence ORDERNUM_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "THE_COFFEE"."ORDERNUM_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 84 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence ORDERSHOP_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "THE_COFFEE"."ORDERSHOP_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 8 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence PRODUCT_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "THE_COFFEE"."PRODUCT_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 14 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence QNA_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "THE_COFFEE"."QNA_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 13 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence REPLY_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "THE_COFFEE"."REPLY_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 21 NOCACHE  NOORDER  NOCYCLE ;

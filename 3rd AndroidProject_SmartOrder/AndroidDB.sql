@@ -1,0 +1,170 @@
+--------------------------------------------------------
+--  파일이 생성됨 - 금요일-10월-30-2020   
+--------------------------------------------------------
+--------------------------------------------------------
+--  DDL for Sequence ORDERNUM
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "P_ANDROID"."ORDERNUM"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 301 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SEQ_CART
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "P_ANDROID"."SEQ_CART"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 128 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Sequence SHOP_SEQ
+--------------------------------------------------------
+
+   CREATE SEQUENCE  "P_ANDROID"."SHOP_SEQ"  MINVALUE 1 MAXVALUE 9999999999999999999999999999 INCREMENT BY 1 START WITH 9 NOCACHE  NOORDER  NOCYCLE ;
+--------------------------------------------------------
+--  DDL for Table CART
+--------------------------------------------------------
+
+  CREATE TABLE "P_ANDROID"."CART" 
+   (	"NUM" NUMBER, 
+	"SHOP" VARCHAR2(50 BYTE), 
+	"ORDERNUM" VARCHAR2(50 BYTE), 
+	"TYPE" VARCHAR2(50 BYTE), 
+	"MENU" VARCHAR2(50 BYTE), 
+	"COST" NUMBER, 
+	"COUNT" NUMBER, 
+	"TOTAL" NUMBER, 
+	"TIME" VARCHAR2(500 BYTE) DEFAULT sysdate, 
+	"TEMP" VARCHAR2(20 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  DDL for Table MENU
+--------------------------------------------------------
+
+  CREATE TABLE "P_ANDROID"."MENU" 
+   (	"MENU" VARCHAR2(100 BYTE), 
+	"TYPE" VARCHAR2(20 BYTE), 
+	"COST" VARCHAR2(20 BYTE), 
+	"PICTURE" VARCHAR2(800 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  DDL for Table SHOP
+--------------------------------------------------------
+
+  CREATE TABLE "P_ANDROID"."SHOP" 
+   (	"NUM" NUMBER, 
+	"NAME" VARCHAR2(100 BYTE), 
+	"TEL" VARCHAR2(50 BYTE), 
+	"ADDR" VARCHAR2(500 BYTE), 
+	"FILENAME" VARCHAR2(2000 BYTE)
+   ) SEGMENT CREATION IMMEDIATE 
+  PCTFREE 10 PCTUSED 40 INITRANS 1 MAXTRANS 255 NOCOMPRESS LOGGING
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+REM INSERTING into P_ANDROID.CART
+SET DEFINE OFF;
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (10,'서면1호점','2-119','fruit','레몬티',2500,1,2500,'20/10/26','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (12,'서면1호점','2-120','cafein','카페모카',3000,1,3000,'20/10/27','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (14,'서면1호점','5-124','cafein','카푸치노',2500,1,2500,'20/10/27','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (15,'해운대1호점','5-138','cafein','카푸치노',2500,1,2500,'20/10/27','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (16,'서면2호점','5-139','cafein','카푸치노',2500,1,2500,'20/10/27','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (17,'해운대1호점','5-140','cafein','카푸치노',2500,1,2500,'20/10/27','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (18,'서면2호점','3-144','cafein','카푸치노',2500,1,2500,'20/10/27','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (19,'서면1호점','1-162','cafein','카푸치노',2500,1,2500,'20/10/27','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (20,'서면1호점','2-163','cafein','카푸치노',2500,1,2500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (58,'서면1호점','2-222','cafein','카푸치노',2500,1,2500,'20/10/29','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (59,'서면1호점','1-223','cafein','카페모카',3000,1,3000,'20/10/29','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (23,'서면1호점','2-205','cafein','아메리카노',1500,1,1500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (24,'서면1호점','2-206','cafein','카푸치노',2500,1,2500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (25,'서면1호점','2-207','cafein','카푸치노',2500,1,2500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (26,'서면1호점','2-207','fruit','블랙티',2500,1,2500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (27,'서면2호점','1-208','cafein','카푸치노',2500,1,2500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (28,'서면2호점','1-208','cafein','비엔나커피',3500,1,3500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (29,'서면2호점','1-208','cafein','비엔나커피',3500,1,3500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (30,'서면1호점','5-209','cafein','아메리카노',1500,1,1500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (31,'서면1호점','2-210','cafein','카페모카',3000,1,3000,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (32,'서면1호점','3-211','cafein','카푸치노',2500,1,2500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (33,'서면1호점','1-212','cafein','카페모카',3000,1,3000,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (34,'서면1호점','1-213','cafein','카푸치노',2500,1,2500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (47,'서면1호점','2-220','cafein','아메리카노',1500,1,1500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (48,'서면1호점','2-220','cafein','아메리카노',1500,1,1500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (49,'서면1호점','2-220','cafein','아메리카노',1500,1,1500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (8,'서면1호점','2-117','cafein','카푸치노',2500,3,7500,'20/10/26','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (9,'서면1호점','2-119','fruit','그린티',2500,1,2500,'20/10/26','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (38,'서면2호점','2-216','cafein','카페모카',3000,1,3000,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (39,'서면1호점','2-217','cafein','아메리카노',1500,1,1500,'20/10/28','Ice');
+Insert into P_ANDROID.CART (NUM,SHOP,ORDERNUM,TYPE,MENU,COST,COUNT,TOTAL,TIME,TEMP) values (50,'서면1호점','2-220','cafein','아메리카노',1500,1,1500,'20/10/28','Ice');
+REM INSERTING into P_ANDROID.MENU
+SET DEFINE OFF;
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('아메리카노','cafein','1500','americano.PNG');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('카푸치노','cafein','2500','cappuccino.PNG');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('카페모카','cafein','3000','moca.PNG');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('비엔나커피','cafein','3500','viena.PNG');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('블랙티','fruit','2500','blacktea.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('그린티','fruit','2500','greantea.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('레드티','fruit','2500','redtea.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('레몬티','fruit','2500','remontea.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('딸기라떼','fruit','3500','strawberrylatte.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('프라푸치노','fruit','4000','frappuccino.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('딸기케이크','food','5000','strawberrycake.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('당근케이크','food','5000','carrotcake.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('팬케이크','food','7000','pancake.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('과일빙수','food','6000','shavedice.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('아이스크림','food','3000','icecream.png');
+Insert into P_ANDROID.MENU (MENU,TYPE,COST,PICTURE) values ('카페라떼','cafein','2000','latte.PNG');
+REM INSERTING into P_ANDROID.SHOP
+SET DEFINE OFF;
+Insert into P_ANDROID.SHOP (NUM,NAME,TEL,ADDR,FILENAME) values (5,'서면1호점','051-700-7000','부산광역시 부산진구 서면로 11','shop1.jpg');
+Insert into P_ANDROID.SHOP (NUM,NAME,TEL,ADDR,FILENAME) values (6,'서면2호점','051-700-7100','부산광역시 부산진구 서면로 22','shop2.jpg');
+Insert into P_ANDROID.SHOP (NUM,NAME,TEL,ADDR,FILENAME) values (7,'해운대1호점','051-610-6000','부산광역시 해운대구 해운대로 11','shop3.jpg');
+Insert into P_ANDROID.SHOP (NUM,NAME,TEL,ADDR,FILENAME) values (8,'해운대2호점','051-610-6100','부산광역시 해운대구 해운대로 22','shop4.jpg');
+--------------------------------------------------------
+--  DDL for Index CART_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "P_ANDROID"."CART_PK" ON "P_ANDROID"."CART" ("NUM") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  DDL for Index SHOP_PK
+--------------------------------------------------------
+
+  CREATE UNIQUE INDEX "P_ANDROID"."SHOP_PK" ON "P_ANDROID"."SHOP" ("NUM") 
+  PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM" ;
+--------------------------------------------------------
+--  Constraints for Table CART
+--------------------------------------------------------
+
+  ALTER TABLE "P_ANDROID"."CART" ADD CONSTRAINT "CART_PK" PRIMARY KEY ("NUM")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
+  ALTER TABLE "P_ANDROID"."CART" MODIFY ("NUM" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table MENU
+--------------------------------------------------------
+
+  ALTER TABLE "P_ANDROID"."MENU" MODIFY ("PICTURE" NOT NULL ENABLE);
+  ALTER TABLE "P_ANDROID"."MENU" MODIFY ("COST" NOT NULL ENABLE);
+  ALTER TABLE "P_ANDROID"."MENU" MODIFY ("TYPE" NOT NULL ENABLE);
+  ALTER TABLE "P_ANDROID"."MENU" MODIFY ("MENU" NOT NULL ENABLE);
+--------------------------------------------------------
+--  Constraints for Table SHOP
+--------------------------------------------------------
+
+  ALTER TABLE "P_ANDROID"."SHOP" ADD CONSTRAINT "SHOP_PK" PRIMARY KEY ("NUM")
+  USING INDEX PCTFREE 10 INITRANS 2 MAXTRANS 255 COMPUTE STATISTICS 
+  STORAGE(INITIAL 65536 NEXT 1048576 MINEXTENTS 1 MAXEXTENTS 2147483645
+  PCTINCREASE 0 FREELISTS 1 FREELIST GROUPS 1 BUFFER_POOL DEFAULT FLASH_CACHE DEFAULT CELL_FLASH_CACHE DEFAULT)
+  TABLESPACE "SYSTEM"  ENABLE;
+  ALTER TABLE "P_ANDROID"."SHOP" MODIFY ("NUM" NOT NULL ENABLE);

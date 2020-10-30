@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:layout_margin="10sp"
+    tools:context=".Activity.MainActivity">
+
+
+    <Button
+        android:id="@+id/btnQR"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/choicebutton"
+        android:layout_margin="10sp"
+        android:text="QR 스캔하기"
+        android:textColor="#4ABFD3"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+    <Button
+        android:id="@+id/btnTblSelect"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@drawable/choicebutton"
+        android:layout_margin="10sp"
+        android:text="직접 선택하기"
+        android:textColor="#4ABFD3"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+
+</LinearLayout>
