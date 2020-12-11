@@ -28,5 +28,5 @@ Apache Tomcat 9.0
 ```
 
 #### 사용 라이브러리
-QR코드 스캔: Zxing
-이미지 로드: Piccaso
+QR코드 스캔: **Zxing**
+이미지 로드: **Piccaso**
