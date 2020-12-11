@@ -1,4 +1,4 @@
-# 개인 포트폴리오
+# 개인 프로젝트 포트폴리오
 
 ## 1. 1st SwingProject_CafePOS: 스윙을 이용한 카페 POS기 구현
 #### 개발환경
@@ -6,6 +6,7 @@
 Java(Java 1.8)
 Oracle Database 11g
 ```
+
 
 ## 2. 2nd jspProject_The Coffee: JSP로 원두 샘플 신청 홈페이지 구현
 #### 개발환경
